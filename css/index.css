@@ -1,0 +1,286 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: #2b3137;
+}
+html {
+  font-size: 62.5%;
+}
+.top-nav {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1% 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #383838;
+}
+.top-nav a {
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+.top-nav nav {
+  display: flex;
+}
+.top-nav nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.2rem;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 20px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.top-nav nav a:hover {
+  color: #31EE5A;
+}
+footer {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1% 0;
+  background-color: #383838;
+}
+footer p {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+.wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1% 0;
+  background-color: #fff;
+}
+.wrapper header {
+  text-align: center;
+}
+.wrapper header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.7rem;
+}
+.wrapper header p {
+  margin: 4%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+}
+.wrapper .info-part {
+  padding: 3% 9%;
+}
+.wrapper .info-part .top-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 6% 0;
+}
+.wrapper .info-part .top-info .part-1 {
+  padding: 2%;
+  border: 2px solid black;
+  width: 49%;
+}
+.wrapper .info-part .top-info .part-1 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.wrapper .info-part .top-info .part-1 p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.wrapper .info-part .top-info .img {
+  background-color: gray;
+  padding: 9%;
+  width: 30%;
+}
+.wrapper .info-part .bottom-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+.wrapper .info-part .bottom-info .part-2 {
+  padding: 2%;
+  border: 2px solid black;
+  width: 49%;
+}
+.wrapper .info-part .bottom-info .part-2 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.wrapper .info-part .bottom-info .part-2 p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.wrapper .info-part .bottom-info .img {
+  background-color: gray;
+  padding: 9%;
+  width: 30%;
+}
+.wrapper button {
+  cursor: pointer;
+  background-color: #31EE5A;
+  border: 1px solid #31EE5A;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  padding: 2% 20%;
+  outline: none;
+  border-radius: 30px;
+  box-shadow: 10px 8px 13px rgba(0, 0, 0, 0.25);
+  margin: 0 0 29% 22%;
+  transition: 0.5s;
+}
+.wrapper button:hover {
+  background-color: white;
+  color: black;
+}
